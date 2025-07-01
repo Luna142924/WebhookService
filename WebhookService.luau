@@ -1,13 +1,6 @@
 --[[
 WebhookService 0.0.1
 
-[TR]
-
-Bu modül oyunlarýnýz üzerinden discord webhooklarýna kolayca mesaj gönderebilmeniz için yazýlmýþtýr.
-Proje tamamen açýk kaynaktýr. :)
-
-[EN]
-
 This module was written so that you can easily send messages to discord webhooks through your games.
 The project is completely open source :)
 
