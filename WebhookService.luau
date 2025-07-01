@@ -15,10 +15,10 @@ local http = game:GetService("HttpService")
 -->> Tables <<--
 
 local config = {
-	["Proxy"] = "https://webhook.lewisakura.moe",
+	["Proxy"] = "",
 	
 	["Webhooks"] = {
-		["Announcements"] = "https://discord.com/api/webhooks/1389745904843493457/7PU1lBGnNmWzB6rj5014u-C3Zt91wFxsDfMTjqn6ZvtZpPzuVEFiLgepcIEOAX7tfsr5"
+		["Test"] = "webhook_url"
 	}
 }
 
