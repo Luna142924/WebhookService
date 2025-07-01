@@ -46,8 +46,6 @@ end
 function wservice:sendEmbed(webhook_name: string, content: string, title: string, description: string, color: "HTML Color Code", ...)
 	local args = {http:JSONDecode(...)}
 	
-	warn(args)
-	
 	if config.Webhooks[webhook_name] then
 		local webhook_url = config.Webhooks[webhook_name]
 		local new_webhook_url = string.gsub(webhook_url, "https://discord.com", config.Proxy)
